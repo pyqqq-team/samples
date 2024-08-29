@@ -1,0 +1,13 @@
+[tool.black]
+line-length = 240
+target-version = ['py39']
+exclude = '''
+/(
+    \.git
+  | \.venv
+  | __pycache__
+  | build
+  | dist
+  | tests
+)/
+'''
